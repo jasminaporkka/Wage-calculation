@@ -1,0 +1,18 @@
+Monthly_Wage
+
+This is a monthly wage calculation system. It calculates the wages given in the csv file
+(HourList201403), and prints out the monthly wage per person.
+
+ParseFile.java reads and parses the file, and returns a list of employees. Each employee has 
+a list of their workdays.
+Employee.java contains class Employee with methods to get and set its id, name and list of 
+workdays.
+Workday.java contains a class describing one workday. It holds attributes employeeid, 
+start hour, end hour and date.
+Monthly_wage is the class where each employee's monthly wage is calculated according to their 
+list of workdays.
+main.java creates the content that is shown in the interface.
+Wage_GUI is the graphical user interface, and also represents the class where the program is 
+run.
+
+Start the program by running Wage_GUI.
